@@ -1,0 +1,110 @@
+/* styles.css */
+
+body {
+    font-family: 'Garamond', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color: #555;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto; /* Center the section content */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 800px; /* Set a maximum width for better readability */
+}
+
+h2 {
+    font-family: 'Garamond', serif;
+    color: #1e90ff;
+    font-size: 28px;
+}
+
+h3 {
+    font-family: 'Garamond', serif;
+    font-size: 24px;
+    color: #000;
+}
+
+h4 {
+    font-family: 'Garamond', serif;
+    font-size: 20px;
+    color: #000;
+}
+
+/* Specific subheadings */
+h3#academic,
+h3#skills {
+    color: #000;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #1e90ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Add a margin-bottom to the education section */
+section#education {
+    margin-bottom: 50px; /* Adjust the margin as needed */
+}
+nav#home-nav a {
+    margin-right: 15px; /* Adjust the margin as needed */
+}
